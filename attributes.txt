@@ -1,0 +1,81 @@
+HTML Attributes
+Attributes provide additional information about HTML elements.
+
+HTML Attributes
+All HTML elements can have attributes
+Attributes provide additional information about an element
+Attributes are always specified in the start tag
+Attributes usually come in name/value pairs like: name="value"
+The href Attribute
+HTML links are defined with the <a> tag. The link address is specified in the href attribute:
+
+Example
+<a href="https://www.w3schools.com">This is a link</a>
+You will learn more about links and the <a> tag later in this tutorial.
+
+The src Attribute
+HTML images are defined with the <img> tag.
+
+The filename of the image source is specified in the src attribute:
+
+Example
+<img src="img_girl.jpg">
+The width and height Attributes
+Images in HTML have a set of size attributes, which specifies the width and height of the image:
+
+Example
+<img src="img_girl.jpg" width="500" height="600">
+The image size is specified in pixels: width="500" means 500 pixels wide.
+
+You will learn more about images in our HTML Images chapter.
+
+The alt Attribute
+The alt attribute specifies an alternative text to be used, when an image cannot be displayed.
+
+The value of the attribute can be read by screen readers. This way, someone "listening" to the webpage, e.g. a blind person, can "hear" the element.
+
+Example
+<img src="img_girl.jpg" alt="Girl with a jacket">
+The alt attribute is also useful if the image does not exist:
+
+Example
+See what happens if we try to display an image that does not exist:
+
+<img src="img_typo.jpg" alt="Girl with a jacket">
+The style Attribute
+The style attribute is used to specify the styling of an element, like color, font, size etc.
+
+Example
+<p style="color:red">I am a paragraph</p>
+You will learn more about styling later in this tutorial, and in our CSS Tutorial.
+
+The lang Attribute
+The language of the document can be declared in the <html> tag.
+
+The language is declared with the lang attribute.
+
+Declaring a language is important for accessibility applications (screen readers) and search engines:
+
+<!DOCTYPE html>
+<html lang="en-US">
+<body>
+
+...
+
+</body>
+</html>
+The first two letters specify the language (en). If there is a dialect, use two more letters (US).
+
+The title Attribute
+Here, a title attribute is added to the <p> element. The value of the title attribute will be displayed as a tooltip when you mouse over the paragraph:
+
+Example
+<p title="I'm a tooltip">
+This is a paragraph.
+</p>
+We Suggest: Use Lowercase Attributes
+The HTML5 standard does not require lowercase attribute names.
+
+The title attribute can be written with uppercase or lowercase like title or TITLE.
+
+W3C recommends lowercase in HTML, and demands lowercase for stricter document types like XHTML.
